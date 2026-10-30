@@ -1,0 +1,14 @@
+{
+  "name": "optiguard-ai",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server/src/index.js",
+    "server": "node server/src/index.js",
+    "dev:server": "node --watch server/src/index.js",
+    "dev:client": "npm.cmd --prefix client run dev",
+    "build": "npm.cmd --prefix client run build",
+    "test:e2e": "node test_optiguard.js"
+  }
+}
